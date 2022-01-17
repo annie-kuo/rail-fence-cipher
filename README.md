@@ -1,2 +1,12 @@
 # rail-fence-cipher
-Program that encrypt and decodes messages using a zig-zag pattern (rail fence)
+This program encrypts and decodes messages using a zig-zag pattern (rail fence).
+
+## Specifications
+Usage: ./cipher [-e|-d] <key> <MESSAGE>
+  
+- 1st argument is the mode (either "-e" or "-d")
+- 2nd argument is the key (10 < key < 50)
+- 3rd argument is the message to encrypt or decrypt
+
+## Planned Changes
+- Decryption
